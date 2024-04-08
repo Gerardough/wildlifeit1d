@@ -1,0 +1,210 @@
+/* Home start */
+
+header{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    z-index: 2;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+header .container .logo{
+    padding: 15px 0;
+    height: 75px;
+}
+
+header .container .logo img{
+    height: 100%;
+}
+
+header nav ul{
+    list-style-type: none;
+}
+header nav ul li{
+    display: inline-block;
+}
+
+header nav ul li a{
+    display: inline-block;
+    height: 75px;
+    line-height: 75px;
+    padding: 0 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #fff;
+    transition: 0.3s;
+}
+
+header nav ul li a:hover{
+    background-color: var(--themeGreen);
+}
+
+.banner3{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(media/protest.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.banner3 h1{
+    margin-top: 230px;
+    display: inline-block;
+    font-size: 6rem;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+    width: 50%;
+    line-height: 4.2rem;
+    font-weight: 100;
+}
+
+.banner3 h1 span{
+    background-color: var(--themeGreen);
+    display: inline-block;
+    line-height: 3.5rem;
+    padding: 0 15px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.banner3 p{
+    color: #fff;
+    width: 50%;
+    text-shadow: 1px 1px 2px #000;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 38px;
+    margin-bottom: 50px;
+}
+
+.banner3 button{
+    display: inline-block;
+    font-size: 16px;
+    padding: 15px 30px;
+    background: var(--themeGreen);
+    color: #ffffffbf;
+    border-radius: 4px;
+    transition: ease .4s;
+    outline: none;
+}
+
+.banner3 button:hover{
+    background: var(--themeGreen);
+    transform: scale(1.1);
+}
+body
+{
+      font-family: "Poppins", sans-serif;
+}
+.vcontainer
+{
+      display: grid;
+      grid-gap: 0px;
+      grid-template-columns: repeat(12, 1fr);
+      grid-auto-rows: minmax(80px, auto);
+}  
+.vcontainer > div
+{
+      text-align: center;
+}
+.v1
+{
+      border-radius: 1rem;
+      background-color: #ebebeb;
+      grid-column: 2/12;
+      grid-row: 2/5;
+}
+.v1 p
+{
+      padding: 1rem;
+      font-size: 2rem;
+      text-align: justify;
+}
+.v1 img
+{
+      border-radius: 1rem;
+      float: left;
+      margin: 1rem;
+      object-fit: cover;
+      width: 35rem;
+      height: 16rem;
+}     
+.v2
+{
+      border-radius: 1rem;
+      background-color: #ebebeb;
+      grid-column: 2/12;
+      grid-row: 6/9;
+}
+.v2 p
+{
+      padding: 1rem;
+      font-size: 2rem;
+      text-align: justify;
+}
+.v2 img
+{
+      border-radius: 1rem;
+      float: left;
+      margin: 1rem;
+      object-fit: cover;
+      width: 35rem;
+      height: 16rem;
+}
+.v3
+{
+      border-radius: 1rem;
+      background-color: #ebebeb;
+      grid-column: 2/12;
+      grid-row: 10/13;
+}
+.v3 p
+{
+      padding: 1rem;
+      font-size: 2rem;
+      text-align: justify;
+}
+.v3 img
+{
+      border-radius: 1rem;
+      float: left;
+      margin: 1rem;
+      object-fit: cover;
+      width: 35rem;
+      height: 16rem;
+}
+.protest2
+{
+      grid-column: 1/13;
+      grid-row: 14/24;
+      background-image: url(media/protest2.jpg);
+      background-size: cover;
+      background-attachment: fixed;
+}
+.v4
+{
+      grid-column: 7/12;
+      grid-row: 15/23;
+}
+.v4 > div
+{
+      margin: 3px;
+      background-color: rgb(235, 235, 235,0.92);
+      padding: 35px;
+      color: black;
+      text-align: center;
+      border-radius: 5px;
+      transition: 0.4s;
+}
+.v5
+{
+      grid-column: 7;
+      margin-left: auto;
+      margin-right: auto;
+}
